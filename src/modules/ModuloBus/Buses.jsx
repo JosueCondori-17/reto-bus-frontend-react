@@ -64,14 +64,14 @@ export const Buses = () => {
                     onClick={() => openDialog("Nuevo", "Crear", null)} />
                 <div className='flex flex-wrap  gap-2 align-items-center '>
                     <InputText
+                        className='flex-grow-1'
                         keyfilter={"int"}
                         value={id}
                         onChange={(e) => setID(e.target.value)}
-                        placeholder='Ingresa el ID del bus a buscar' />
+                        placeholder='Ingresa ID y haz clic en buscar'/>
                     <Button
-                        icon='pi pi-search'
-                        label='Buscar por ID'
-                        severity='info'
+                        label='BUSCAR'
+                        severity='warning'
                         style={{ marginBottom: "10px" }}
                         onClick={() => buscarPorID(id)}
                     />
