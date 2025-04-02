@@ -1,0 +1,15 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera{
+  background-color: #ed1e7a;
+  padding: 2rem;
+  color: white;
+}
+
+.cuerpodepagina{
+  padding: 2rem;
+  height: auto;
+}
